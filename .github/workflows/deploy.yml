@@ -6,7 +6,7 @@ on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
   # using the `master` branch as the default branch.
   push:
-    branches: [doc_added]
+    branches: [docs_aded]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,13 +38,13 @@ jobs:
         with:
           node-version: 18
           cache: npm # or pnpm / yarn
-      - name: install vitepress
-        run: npm install vitepress
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: npm ci # or pnpm install / yarn install
       - name: Build with VitePress
         run: |
-          npm run docs:build
+          npm run docs:build # or pnpm docs:build / yarn docs:build
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
