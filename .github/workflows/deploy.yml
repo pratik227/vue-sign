@@ -38,6 +38,8 @@ jobs:
         with:
           node-version: 18
           cache: npm # or pnpm / yarn
+      - name: install vitepress
+        run: npm install vitepress
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
