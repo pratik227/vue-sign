@@ -16,7 +16,7 @@
 
 [![Edit Vue Signature Pad Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/broken-flower-22ot7m)
 
-
+ 
 
 ## Installation
 
