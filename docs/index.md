@@ -14,7 +14,7 @@ hero:
       link: /vue3-example
 
 features:
-  - title: Vue Signature Pad Component
+  - title: Vue Signature Pad Component 
     details: Easy-to-use for Vue 2/3.
     icon: '🚀'
   - title: Export as Image
