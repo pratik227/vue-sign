@@ -73,8 +73,7 @@
   },
   "dependencies": {
     "merge-images": "^1.1.0",
-    "signature_pad": "^3.0.0-beta.3",
-    "vue-server-renderer": "^2.7.14"
+    "signature_pad": "^3.0.0-beta.3"
   },
   "devDependencies": {
     "@babel/core": "7.15.0",
