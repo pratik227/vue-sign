@@ -38,9 +38,6 @@ jobs:
         with:
           node-version: 18
           cache: npm # or pnpm / yarn
-      # Change directory to the 'docs' folder
-      - name: Change to docs directory
-        run: cd docs
       - name: install vitepress
         run: npm install vitepress
       - name: Setup Pages
