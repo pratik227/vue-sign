@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vue Signature Pad",
-  base:"/vue-signature-pad/",
+  base:"/vue-sign/",
   build: {
     rollupOptions: {
       external: ['vue/server-renderer'],
